@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean definitions here 
+	<bean id="welcomeBean" class="com.tca.bean.WelcomeBean">
+	<constructor-arg name="id" value="101"/>
+	<constructor-arg name="name" value="Aniket Jumde" />
+	</bean>
+-->
+
+	<bean id="student" class="com.tca.bean.Student">
+		
+		<constructor-arg name="id" value="1023" />
+		<constructor-arg name="name" value="Sanket Jumde" />
+		<constructor-arg name="fees" value="20000" />
+		<property name="passportId" value="IND02345"></property>
+		
+	</bean>
+
+</beans>

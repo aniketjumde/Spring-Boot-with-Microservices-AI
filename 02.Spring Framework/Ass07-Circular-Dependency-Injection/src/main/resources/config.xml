@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean definitions here 
+	<bean id="welcomeBean" class="com.tca.bean.WelcomeBean">
+	<constructor-arg name="id" value="101"/>
+	<constructor-arg name="name" value="Aniket Jumde" />
+	</bean>
+-->
+
+	<bean id="serviceB" class="com.tca.bean.ServiceB">
+	
+		<property name="serviceA" ref="serviceA" />
+		
+	</bean>
+
+<!-- In Circular dependency Constructor inject Problem is Solved By Once Setter Injection
+	 And in configuration beans are Wright on priority (first)
+-->
+
+	<bean id="serviceA" class="com.tca.bean.ServiceA">
+	
+	<constructor-arg name="serviceB" ref="serviceB"/>
+	
+	
+	</bean>
+
+</beans>
