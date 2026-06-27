@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- bean definitions here 
+	<bean id="welcomeBean" class="com.tca.bean.WelcomeBean">
+	<constructor-arg name="id" value="101"/>
+	<constructor-arg name="name" value="Aniket Jumde" />
+	</bean>
+-->
+
+	<bean id="welcomeBean" class="com.tca.bean.WelcomeBean">
+		
+		<property name="id" value="10002"></property>
+		<property name="message" value="Welcome in Setter Injection"></property>
+		
+	</bean>
+
+</beans>
