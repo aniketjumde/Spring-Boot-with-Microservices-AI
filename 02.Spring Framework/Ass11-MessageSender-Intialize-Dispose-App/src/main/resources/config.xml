@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<beans>
+	
+	<bean id="messageSender " class="com.tca.bean.MessageSender" init-method="myinit" destroy-method="mydestroy" >
+			<property name="serverIp" value="102.34.212" />
+			<property name="port" value="8080" />
+		</bean>
+	
+	
+
+
+</beans>
+
+	
+	
+</beans>
