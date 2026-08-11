@@ -1,5 +1,8 @@
 package com.tca;
 
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -48,7 +51,7 @@ public class Ass01SpringJbdcApplication
 			
 		}
 		
-		*/
+
 		
 		//Update
 		
@@ -62,6 +65,28 @@ public class Ass01SpringJbdcApplication
 			System.out.println("Record is Updated Successfully !!!");
 			
 		}
+		
+	
+		//Disply with Specific
+		
+		Map<String,Object> map=studentRepository.getSpecificRecord(101);
+		System.out.println(map);
+		
+			
+		
+		
+		//Disply CIty WIse Record
+		List<Map<String,Object>> list=studentRepository.getAllRecordCityWise("Pune");
+		System.out.println(list);
+		
+		*/
+		
+		//Display All Records
+		
+				List<Map<String,Object>> list=studentRepository.getAllRecord();
+				System.out.println(list);
+				
+		
 	}
 
 }

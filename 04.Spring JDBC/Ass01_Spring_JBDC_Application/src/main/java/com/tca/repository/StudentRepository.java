@@ -1,5 +1,8 @@
 package com.tca.repository;
 
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
@@ -29,4 +32,27 @@ public class StudentRepository
 	{
 		return jdbcTemplate.update("Update student set name=?,per=?,city=? Where rno=?",ob.getName(),ob.getPer(),ob.getCity(),ob.getRno());
 	}
+	
+
+	public Map<String, Object> getSpecificRecord(int rno) 
+	{
+		
+	    String sql = "SELECT * FROM student WHERE rno = ?";
+
+	    return jdbcTemplate.queryForMap(sql, rno);
+	}
+	
+	public List<Map<String, Object>> getAllRecord()
+	{
+	    String sql = "SELECT * FROM student";
+	    return jdbcTemplate.queryForList(sql);
+	}
+	
+	public List<Map<String, Object>> getAllRecordCityWise(String city)
+	{
+		return jdbcTemplate.queryForList("SELECT * FROM student WHERE city=?",city);
+	}
+
+
+
 }
