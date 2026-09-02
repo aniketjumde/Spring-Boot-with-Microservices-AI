@@ -46,18 +46,29 @@ public class MyRunners implements ApplicationRunner
 //				System.out.println(students);
 //				
 		
-		//Test Case 02 : Fetch All Student gender,name, Per
-		List<Object[]> students=studentService.fetchByGenderAndPer(Gender.FEMALE,70.0);
-				
-		for(Object[] ob:students)
-		{
-			
-			System.out.println("Name   : "+ob[0]);
-			System.out.println("Per    : "+ob[1]);
-			System.out.println("Gender : "+ob[2]);
-			System.out.println("======".repeat(5));
-
-		}
+//		//Test Case 02 : Fetch All Student gender,name, Per
+//		List<Object[]> students=studentService.fetchByGenderAndPer(Gender.FEMALE,70.0);
+//				
+//		for(Object[] ob:students)
+//		{
+//			
+//			System.out.println("Name   : "+ob[0]);
+//			System.out.println("Per    : "+ob[1]);
+//			System.out.println("Gender : "+ob[2]);
+//			System.out.println("======".repeat(5));
+//		}
+		
+		
+//		
+//		//Test Case 03 : Update Student Name
+//		
+//		studentService.updateByName("Pradeep",103);
+//		System.out.println("Update Record Successfully !!!");
+//	
+		
+		//Test Case 04 : Delete By rno
+		studentService.deleteByRno(120);
+		System.out.println("Record is Deleted Successfully");
 					
 	}
 	

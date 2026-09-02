@@ -12,6 +12,9 @@ public interface StudentService {
 	public List<Student> fetchAllStudent();
 	public List<Student> fetchByPerBetweenStudent(Double start,Double end);
 	public List<Object[]> fetchByGenderAndPer(Gender gender,Double per);
+	public void updateByName(String name,int rno);
+	public void deleteByRno(Integer rno);
+	
 
 
 }

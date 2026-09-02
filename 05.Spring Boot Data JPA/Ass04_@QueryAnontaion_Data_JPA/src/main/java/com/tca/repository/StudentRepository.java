@@ -2,12 +2,15 @@ package com.tca.repository;
 
 import java.util.List;
 
+import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 import com.tca.entity.Student;
 import com.tca.enums.Gender;
+
+import jakarta.transaction.Transactional;
 
 public interface StudentRepository extends CrudRepository<Student,Integer> {
 	
@@ -42,5 +45,18 @@ public interface StudentRepository extends CrudRepository<Student,Integer> {
 	public List<Object[]> findByGenderAndPerUsingSQL(@Param("studentGender") Gender gender,@Param("studentPer") Double per);
 
 	
+	
+	//Update Record 
+	@Modifying
+	@Transactional
+	@Query("Update Student s Set s.name= :name Where s.rno=:rno")
+	public void updateByName(@Param("name") String name,@Param("rno") Integer rno);
+	
+	
+	//Delete Student Records
+	@Modifying
+	@Transactional
+	@Query("Delete FROM Student s Where s.rno=:rno")
+	public void deleteByrno(@Param("rno") Integer rno);
 	
 }

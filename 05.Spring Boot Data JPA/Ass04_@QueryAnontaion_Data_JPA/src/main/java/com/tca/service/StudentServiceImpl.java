@@ -30,5 +30,16 @@ public class StudentServiceImpl implements StudentService {
 	public List<Object[]> fetchByGenderAndPer(Gender gender, Double per) {
 		return studentRepository.findByGenderAndPerUsingJPQL(gender, per);
 	}
+
+	@Override
+	public void updateByName(String name, int rno) {
+		studentRepository.updateByName(name, rno);
+	}
+
+	@Override
+	public void deleteByRno(Integer rno) 
+	{
+		studentRepository.deleteByrno(rno);
+	}
 	
 }
