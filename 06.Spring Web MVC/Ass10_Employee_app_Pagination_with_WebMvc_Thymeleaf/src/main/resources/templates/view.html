@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Employee Pagination</title>
+</head>
+<body>
+
+    <h2>Employee Details</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>EmpNo</th>
+            <th>EName</th>
+            <th>ESalary</th>
+            <th>DeptNo</th>
+        </tr>
+
+        <tr th:each="emp : ${emps.content}">
+            <td th:text="${emp.empno}"></td>
+            <td th:text="${emp.ename}"></td>
+            <td th:text="${emp.esalary}"></td>
+            <td th:text="${emp.deptNo}"></td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Previous Page -->
+	<a th:if="${hasPrevious}"
+	   th:href="@{/view(pageNumber=${pageNumber-1})}">
+   		Previous	
+   </a>
+	
+   <!-- Current Page -->
+     <span>
+         Page <span th:text="${pageNumber + 1}"></span>
+         of <span th:text="${emps.totalPages}"></span>
+     </span>
+
+   
+   <a th:if="${hasNext}"
+   	  th:href="@{/view(pageNumber=${pageNumber+1})}">
+	  Next
+   </a>
+
+ 
+ 
+
+</body>
+</html>
