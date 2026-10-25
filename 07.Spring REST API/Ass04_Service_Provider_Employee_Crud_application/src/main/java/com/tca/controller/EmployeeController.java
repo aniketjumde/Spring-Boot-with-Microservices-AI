@@ -25,7 +25,7 @@ public class EmployeeController {
 	private EmployeeService employeeService;
 	
 	@GetMapping(value="/employee/{id}",
-				produces={"application/xml","application/json"}				
+				produces={"application/json","application/json"}				
 				)
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable Integer id)
 	{
