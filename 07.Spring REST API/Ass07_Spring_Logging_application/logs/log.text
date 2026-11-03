@@ -1,0 +1,730 @@
+2026-11-03T17:47:22.537+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-03T17:47:22.538+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-03T17:47:22.539+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-03T17:47:22.541+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] com.tca.api.EmployeeController           : DELETE /delete/1083 - Request received to delete employee
+2026-11-03T17:47:22.541+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] com.tca.api.EmployeeController           : DELETE /delete/1083 - Calling EmployeeService
+2026-11-03T17:47:22.547+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] com.tca.api.EmployeeController           : DELETE /delete/1083 - Employee not found. Deletion failed
+2026-11-03T17:47:22.548+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] com.tca.advice.GlobalExceptionHandler    : Already exists: Employee with empno :1083 is not present to Delete
+2026-11-03T17:47:22.549+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [http-nio-8082-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.tca.Exception.EmployeeNotFoundException: Employee with empno :1083 is not present to Delete]
+2026-11-03T17:56:48.412+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:56:48.414+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-85] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:56:48.415+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:56:48.417+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-85] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:56:48.418+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-85] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown initiated...
+2026-11-03T17:56:48.422+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-85] com.zaxxer.hikari.HikariDataSource       : HikariPool-27 - Shutdown completed.
+2026-11-03T17:56:48.490+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:56:48.490+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:56:48.490+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:56:48.563+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:56:48.567+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:56:48.612+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:56:48.613+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:56:48.613+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:56:48.618+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 126 ms
+2026-11-03T17:56:48.641+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:56:48.654+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:56:48.655+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Starting...
+2026-11-03T17:56:48.666+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-28 - Added connection com.mysql.cj.jdbc.ConnectionImpl@725fc688
+2026-11-03T17:56:48.667+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Start completed.
+2026-11-03T17:56:48.668+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:56:48.685+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:56:48.695+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:56:48.733+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:56:48.807+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:56:48.810+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.332 seconds (process running for 1549.273)
+2026-11-03T17:56:48.811+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:57:24.229+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:57:24.231+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-104] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:57:24.232+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:57:24.234+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-104] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:24.234+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-104] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown initiated...
+2026-11-03T17:57:24.236+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-104] com.zaxxer.hikari.HikariDataSource       : HikariPool-28 - Shutdown completed.
+2026-11-03T17:57:24.298+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:57:24.298+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:57:24.298+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:57:24.373+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:57:24.378+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:57:24.418+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:57:24.418+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:57:24.418+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:57:24.422+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 122 ms
+2026-11-03T17:57:24.441+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:57:24.453+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:57:24.453+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Starting...
+2026-11-03T17:57:24.463+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-29 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3466c35a
+2026-11-03T17:57:24.463+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Start completed.
+2026-11-03T17:57:24.464+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:57:24.485+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:57:24.492+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:24.524+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:57:24.592+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:57:24.595+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.307 seconds (process running for 1585.058)
+2026-11-03T17:57:24.596+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:57:35.989+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:57:35.990+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-108] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:57:35.992+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:57:35.994+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-108] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:35.995+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-108] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown initiated...
+2026-11-03T17:57:35.998+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-108] com.zaxxer.hikari.HikariDataSource       : HikariPool-29 - Shutdown completed.
+2026-11-03T17:57:36.073+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:57:36.073+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:57:36.073+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:57:36.141+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:57:36.145+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:57:36.181+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:57:36.182+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:57:36.182+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:57:36.186+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 112 ms
+2026-11-03T17:57:36.205+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:57:36.217+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:57:36.218+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Starting...
+2026-11-03T17:57:36.228+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-30 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a5703e1
+2026-11-03T17:57:36.228+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Start completed.
+2026-11-03T17:57:36.230+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:57:36.249+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:57:36.258+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:36.290+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:57:36.361+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:57:36.363+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.303 seconds (process running for 1596.826)
+2026-11-03T17:57:36.364+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:57:40.756+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:57:40.758+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-112] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:57:40.760+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:57:40.762+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-112] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:40.763+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-112] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown initiated...
+2026-11-03T17:57:40.765+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-112] com.zaxxer.hikari.HikariDataSource       : HikariPool-30 - Shutdown completed.
+2026-11-03T17:57:40.840+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:57:40.840+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:57:40.840+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:57:40.907+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:57:40.910+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:57:40.952+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:57:40.953+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:57:40.953+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:57:40.958+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 115 ms
+2026-11-03T17:57:40.979+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:57:40.992+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:57:40.992+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Starting...
+2026-11-03T17:57:41.004+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-31 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f32aad1
+2026-11-03T17:57:41.004+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Start completed.
+2026-11-03T17:57:41.005+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:57:41.028+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:57:41.038+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:41.076+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:57:41.151+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:57:41.154+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.33 seconds (process running for 1601.617)
+2026-11-03T17:57:41.155+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:57:59.558+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:57:59.560+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-116] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:57:59.562+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:57:59.564+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-116] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:59.565+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-116] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown initiated...
+2026-11-03T17:57:59.568+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-116] com.zaxxer.hikari.HikariDataSource       : HikariPool-31 - Shutdown completed.
+2026-11-03T17:57:59.655+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:57:59.655+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:57:59.655+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:57:59.714+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:57:59.718+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:57:59.758+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:57:59.758+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:57:59.758+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:57:59.762+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 106 ms
+2026-11-03T17:57:59.781+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:57:59.794+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:57:59.795+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Starting...
+2026-11-03T17:57:59.805+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-32 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c020be6
+2026-11-03T17:57:59.806+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Start completed.
+2026-11-03T17:57:59.807+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:57:59.831+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:57:59.841+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:57:59.881+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:57:59.941+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:57:59.943+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.303 seconds (process running for 1620.406)
+2026-11-03T17:57:59.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:58:15.348+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:58:15.349+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-120] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:58:15.351+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:58:15.353+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-120] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:15.354+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-120] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown initiated...
+2026-11-03T17:58:15.357+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-120] com.zaxxer.hikari.HikariDataSource       : HikariPool-32 - Shutdown completed.
+2026-11-03T17:58:15.446+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:58:15.446+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:58:15.446+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:58:15.513+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:58:15.517+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:58:15.558+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:58:15.558+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:58:15.558+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:58:15.563+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 115 ms
+2026-11-03T17:58:15.582+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:58:15.597+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:58:15.597+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Starting...
+2026-11-03T17:58:15.610+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-33 - Added connection com.mysql.cj.jdbc.ConnectionImpl@479d3d3a
+2026-11-03T17:58:15.610+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Start completed.
+2026-11-03T17:58:15.611+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:58:15.640+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:58:15.650+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:15.687+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:58:15.747+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:58:15.749+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.316 seconds (process running for 1636.212)
+2026-11-03T17:58:15.750+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:58:22.145+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:58:22.147+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-124] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:58:22.148+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:58:22.150+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-124] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:22.151+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-124] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown initiated...
+2026-11-03T17:58:22.153+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-124] com.zaxxer.hikari.HikariDataSource       : HikariPool-33 - Shutdown completed.
+2026-11-03T17:58:22.223+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:58:22.223+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:58:22.223+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:58:22.294+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:58:22.298+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:58:22.342+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:58:22.343+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:58:22.343+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:58:22.348+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 123 ms
+2026-11-03T17:58:22.367+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:58:22.385+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:58:22.386+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Starting...
+2026-11-03T17:58:22.404+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-34 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d82dcd9
+2026-11-03T17:58:22.404+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Start completed.
+2026-11-03T17:58:22.406+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:58:22.430+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:58:22.438+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:22.469+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:58:22.526+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:58:22.529+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.32 seconds (process running for 1642.992)
+2026-11-03T17:58:22.530+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:58:37.934+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:58:37.936+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-128] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:58:37.937+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:58:37.940+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-128] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:37.941+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-128] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown initiated...
+2026-11-03T17:58:37.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-128] com.zaxxer.hikari.HikariDataSource       : HikariPool-34 - Shutdown completed.
+2026-11-03T17:58:38.014+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:58:38.014+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:58:38.014+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:58:38.077+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:58:38.082+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:58:38.124+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:58:38.125+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:58:38.125+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:58:38.130+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 115 ms
+2026-11-03T17:58:38.160+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:58:38.172+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:58:38.172+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Starting...
+2026-11-03T17:58:38.181+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-35 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66f13281
+2026-11-03T17:58:38.181+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Start completed.
+2026-11-03T17:58:38.183+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:58:38.204+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:58:38.212+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:58:38.252+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:58:38.317+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:58:38.319+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.317 seconds (process running for 1658.782)
+2026-11-03T17:58:38.320+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:15.744+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:15.746+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-132] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:15.748+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:15.750+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-132] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:15.751+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-132] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown initiated...
+2026-11-03T17:59:15.754+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-132] com.zaxxer.hikari.HikariDataSource       : HikariPool-35 - Shutdown completed.
+2026-11-03T17:59:15.835+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:15.835+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:15.835+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:15.894+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:15.898+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:15.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:15.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:15.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:15.950+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 113 ms
+2026-11-03T17:59:15.969+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:15.981+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:15.982+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Starting...
+2026-11-03T17:59:15.991+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-36 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24e3988b
+2026-11-03T17:59:15.991+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Start completed.
+2026-11-03T17:59:15.992+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:16.010+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:16.020+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:16.055+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:16.115+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:16.118+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.296 seconds (process running for 1696.581)
+2026-11-03T17:59:16.119+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:24.515+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:24.517+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-136] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:24.519+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:24.521+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-136] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:24.522+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-136] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown initiated...
+2026-11-03T17:59:24.524+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-136] com.zaxxer.hikari.HikariDataSource       : HikariPool-36 - Shutdown completed.
+2026-11-03T17:59:24.594+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:24.594+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:24.594+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:24.652+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:24.656+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:24.702+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:24.702+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:24.703+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:24.708+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 113 ms
+2026-11-03T17:59:24.729+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:24.741+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:24.742+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Starting...
+2026-11-03T17:59:24.751+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-37 - Added connection com.mysql.cj.jdbc.ConnectionImpl@386839bd
+2026-11-03T17:59:24.751+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Start completed.
+2026-11-03T17:59:24.752+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:24.771+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:24.780+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:24.814+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:24.873+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:24.875+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.292 seconds (process running for 1705.338)
+2026-11-03T17:59:24.876+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:41.283+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:41.285+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-140] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:41.287+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:41.289+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-140] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:41.290+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-140] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown initiated...
+2026-11-03T17:59:41.293+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-140] com.zaxxer.hikari.HikariDataSource       : HikariPool-37 - Shutdown completed.
+2026-11-03T17:59:41.366+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:41.366+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:41.367+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:41.424+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:41.428+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:41.475+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:41.476+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:41.476+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:41.481+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 113 ms
+2026-11-03T17:59:41.500+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:41.510+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:41.510+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Starting...
+2026-11-03T17:59:41.521+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-38 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d227e17
+2026-11-03T17:59:41.522+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Start completed.
+2026-11-03T17:59:41.522+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:41.540+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:41.549+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:41.582+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:41.641+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:41.643+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.289 seconds (process running for 1722.107)
+2026-11-03T17:59:41.645+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:48.037+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:48.039+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-144] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:48.041+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:48.043+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-144] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:48.044+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-144] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown initiated...
+2026-11-03T17:59:48.047+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-144] com.zaxxer.hikari.HikariDataSource       : HikariPool-38 - Shutdown completed.
+2026-11-03T17:59:48.115+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:48.115+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:48.115+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:48.169+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:48.173+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:48.214+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:48.215+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:48.215+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:48.220+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 104 ms
+2026-11-03T17:59:48.242+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:48.254+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:48.255+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Starting...
+2026-11-03T17:59:48.264+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-39 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57d02772
+2026-11-03T17:59:48.264+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Start completed.
+2026-11-03T17:59:48.265+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:48.285+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:48.292+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:48.324+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:48.383+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:48.385+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.281 seconds (process running for 1728.849)
+2026-11-03T17:59:48.386+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:52.779+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:52.781+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-148] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:52.782+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:52.784+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-148] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:52.785+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-148] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Shutdown initiated...
+2026-11-03T17:59:52.789+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-148] com.zaxxer.hikari.HikariDataSource       : HikariPool-39 - Shutdown completed.
+2026-11-03T17:59:52.863+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:52.864+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:52.864+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:52.925+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:52.929+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:52.977+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:52.978+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:52.978+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:52.983+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 118 ms
+2026-11-03T17:59:53.005+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:53.017+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:53.018+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Starting...
+2026-11-03T17:59:53.029+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-40 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6318dc9c
+2026-11-03T17:59:53.029+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Start completed.
+2026-11-03T17:59:53.030+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:53.051+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:53.059+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:53.095+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:53.155+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:53.157+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.309 seconds (process running for 1733.621)
+2026-11-03T17:59:53.158+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T17:59:57.550+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T17:59:57.552+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-152] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T17:59:57.553+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T17:59:57.555+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-152] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:57.556+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-152] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Shutdown initiated...
+2026-11-03T17:59:57.559+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-152] com.zaxxer.hikari.HikariDataSource       : HikariPool-40 - Shutdown completed.
+2026-11-03T17:59:57.636+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T17:59:57.636+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T17:59:57.636+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T17:59:57.689+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T17:59:57.693+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T17:59:57.739+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T17:59:57.740+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T17:59:57.740+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T17:59:57.745+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 108 ms
+2026-11-03T17:59:57.767+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T17:59:57.779+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T17:59:57.780+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Starting...
+2026-11-03T17:59:57.790+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-41 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44c58f07
+2026-11-03T17:59:57.790+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Start completed.
+2026-11-03T17:59:57.791+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T17:59:57.808+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T17:59:57.816+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T17:59:57.852+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T17:59:57.911+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T17:59:57.913+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.289 seconds (process running for 1738.376)
+2026-11-03T17:59:57.914+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T18:00:39.346+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T18:00:39.347+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-156] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T18:00:39.348+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T18:00:39.350+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-156] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:00:39.351+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-156] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Shutdown initiated...
+2026-11-03T18:00:39.353+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-156] com.zaxxer.hikari.HikariDataSource       : HikariPool-41 - Shutdown completed.
+2026-11-03T18:00:39.432+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T18:00:39.432+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T18:00:39.432+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T18:00:39.501+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T18:00:39.507+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 1 JPA repository interface.
+2026-11-03T18:00:39.556+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T18:00:39.557+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T18:00:39.557+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T18:00:39.562+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 129 ms
+2026-11-03T18:00:39.584+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T18:00:39.595+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T18:00:39.596+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Starting...
+2026-11-03T18:00:39.605+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-42 - Added connection com.mysql.cj.jdbc.ConnectionImpl@31c49df0
+2026-11-03T18:00:39.605+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Start completed.
+2026-11-03T18:00:39.606+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T18:00:39.624+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T18:00:39.632+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:00:39.669+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T18:00:39.728+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T18:00:39.730+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.312 seconds (process running for 1780.193)
+2026-11-03T18:00:39.731+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T18:02:18.224+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T18:02:18.226+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-160] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T18:02:18.228+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T18:02:18.229+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-160] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:02:18.230+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-160] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown initiated...
+2026-11-03T18:02:18.232+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-160] com.zaxxer.hikari.HikariDataSource       : HikariPool-42 - Shutdown completed.
+2026-11-03T18:02:18.315+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T18:02:18.315+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T18:02:18.315+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T18:02:18.390+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T18:02:18.395+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T18:02:18.450+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T18:02:18.452+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T18:02:18.452+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T18:02:18.459+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 142 ms
+2026-11-03T18:02:18.502+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T18:02:18.522+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T18:02:18.523+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Starting...
+2026-11-03T18:02:18.535+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-43 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77a0f8e9
+2026-11-03T18:02:18.535+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Start completed.
+2026-11-03T18:02:18.536+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T18:02:18.561+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T18:02:18.570+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:02:18.624+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T18:02:18.703+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T18:02:18.705+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.407 seconds (process running for 1879.169)
+2026-11-03T18:02:18.706+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T18:02:59.131+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T18:02:59.133+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-164] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T18:02:59.134+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T18:02:59.136+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-164] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:02:59.138+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-164] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown initiated...
+2026-11-03T18:02:59.141+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-164] com.zaxxer.hikari.HikariDataSource       : HikariPool-43 - Shutdown completed.
+2026-11-03T18:02:59.213+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T18:02:59.213+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T18:02:59.213+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T18:02:59.275+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T18:02:59.280+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 1 JPA repository interface.
+2026-11-03T18:02:59.318+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T18:02:59.319+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T18:02:59.319+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T18:02:59.323+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 109 ms
+2026-11-03T18:02:59.344+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T18:02:59.359+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T18:02:59.359+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Starting...
+2026-11-03T18:02:59.371+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-44 - Added connection com.mysql.cj.jdbc.ConnectionImpl@171ce2b2
+2026-11-03T18:02:59.371+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Start completed.
+2026-11-03T18:02:59.373+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T18:02:59.393+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T18:02:59.400+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:02:59.437+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T18:02:59.502+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T18:02:59.505+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.304 seconds (process running for 1919.968)
+2026-11-03T18:02:59.506+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T18:03:41.941+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T18:03:41.943+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-168] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T18:03:41.944+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T18:03:41.946+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-168] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:03:41.947+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-168] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown initiated...
+2026-11-03T18:03:41.949+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-168] com.zaxxer.hikari.HikariDataSource       : HikariPool-44 - Shutdown completed.
+2026-11-03T18:03:42.017+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T18:03:42.017+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T18:03:42.017+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T18:03:42.079+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T18:03:42.082+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T18:03:42.123+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T18:03:42.124+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T18:03:42.124+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T18:03:42.128+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 110 ms
+2026-11-03T18:03:42.147+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T18:03:42.162+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T18:03:42.163+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Starting...
+2026-11-03T18:03:42.173+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-45 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cf19783
+2026-11-03T18:03:42.174+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Start completed.
+2026-11-03T18:03:42.175+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T18:03:42.191+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T18:03:42.198+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:03:42.230+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T18:03:42.289+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T18:03:42.291+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.284 seconds (process running for 1962.754)
+2026-11-03T18:03:42.292+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-11-03T18:04:28.729+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-11-03T18:04:28.731+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-172] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-03T18:04:28.733+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-03T18:04:28.735+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-172] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:04:28.736+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-172] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown initiated...
+2026-11-03T18:04:28.738+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [Thread-172] com.zaxxer.hikari.HikariDataSource       : HikariPool-45 - Shutdown completed.
+2026-11-03T18:04:28.812+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Starting Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication using Java 17.0.19 with PID 37712 (/home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application/target/classes started by aniket in /home/aniket/Documents/Programming_Languages/Spring Boot with Microservices & AI/07.Spring REST API/Ass07_Spring_Logging_application)
+2026-11-03T18:04:28.812+05:30 DEBUG 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Running with Spring Boot v4.1.2, Spring v7.0.10
+2026-11-03T18:04:28.812+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : No active profile set, falling back to 1 default profile: "default"
+2026-11-03T18:04:28.873+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-03T18:04:28.876+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2026-11-03T18:04:28.916+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-11-03T18:04:28.917+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-03T18:04:28.917+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-03T18:04:28.922+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 108 ms
+2026-11-03T18:04:28.941+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-03T18:04:28.953+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-03T18:04:28.955+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Starting...
+2026-11-03T18:04:28.965+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-46 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3be30aaf
+2026-11-03T18:04:28.966+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-46 - Start completed.
+2026-11-03T18:04:28.966+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/sb01db]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 9.3
+	Default catalog/schema: sb01db/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-03T18:04:28.987+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-03T18:04:28.994+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-03T18:04:29.032+05:30  WARN 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-03T18:04:29.097+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-11-03T18:04:29.099+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] licationWithExceptionHandlingApplication : Started Ass05ServerProvideEmployeeApplicationWithExceptionHandlingApplication in 0.3 seconds (process running for 2009.563)
+2026-11-03T18:04:29.100+05:30  INFO 37712 --- [Ass07_Spring_Logging_applications] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged

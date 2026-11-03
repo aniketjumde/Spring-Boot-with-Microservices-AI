@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: Ass07_Spring_Logging_applications
+  datasource:
+    url: jdbc:mysql://localhost:3306/sb01db
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8082
+
+#Logging Information
+
+logging:
+  level:
+    root: INFO
+    com.tca: DEBUG
+  file:
+    name: logs/log.text
+
+    
