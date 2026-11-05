@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Ass08_REST_API_Swagger_Tool_application
+  datasource:
+    url: jdbc:mysql://localhost:3306/sb01db
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8082
